@@ -5,7 +5,7 @@ from tensorflow.keras.layers import Dense
 import numpy as np
 
 def test_c1(target):
-    target(tf.zeros((1, 400)))
+    target(tensorflow.zeros((1, 400)))
 
     dense_layers = [layer for layer in target.layers if isinstance(layer, Dense)]
 
